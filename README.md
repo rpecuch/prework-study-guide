@@ -25,6 +25,8 @@ Added new features after spending the past few weeks learning about advanced CSS
 
 Users can also have a random topic chosen for them to study by clicking a button.
 
+![window asking if user would like a topic chosen for them](./assets/images/choose-topic.png)
+
 ## Credits
 
 N/A
