@@ -2,7 +2,7 @@
 
 ## Description
 
-The Prework Study Guide was created to provide an organized platform for students to view notes from prework. This project was built not only to review key points from lessons, but the process itself was a learning experience in learning basic coding concepts. I learned about the basic components required to build a webpage and how they all work together. I plan to implement new features as I learn new skills when class begins.
+The Prework Study Guide was created to provide an organized platform for students to view notes from prework. This project was built not only to review key points from lessons, but the process itself was a learning experience in learning basic coding concepts. I learned about the basic components required to build a webpage and how they all work together. I plan to implement new features as I continue to learn new skills.
 
 ## Installation
 
@@ -10,7 +10,20 @@ N/A
 
 ## Usage
 
-Notes for the different topics are divided into four sections entitled "HTML", "CSS", "Git", and "JavaScript". Scroll down to the desired section to review the notes. For a suggestion on which topic to study first, open the Chrome DevTools console by using Command+Option+I (macOS) or Control+Shift+I (Windows). A console should appear with a suggested topic listed at the bottom. To have another topic suggested, simply refresh the browser.
+To access this application, visit the following URL: [https://rpecuch.github.io/prework-study-guide/](https://rpecuch.github.io/prework-study-guide/).
+
+![home page](./assets/images/landing-page.png)
+
+
+Notes for the different topics are divided into four sections entitled "HTML", "CSS", "Git", and "JavaScript". Scroll down to the desired section to review the notes.
+
+### 8/21/22 Update
+
+Added new features after spending the past few weeks learning about advanced CSS, JavaScript, and web APIs. Users can now view links to resources by hovering over the "Resources" sections. 
+
+![displayed list of resources](./assets/images/display-resouces.png)
+
+Users can also have a random topic chosen for them to study by clicking a button.
 
 ## Credits
 
