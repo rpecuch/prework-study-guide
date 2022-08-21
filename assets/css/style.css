@@ -21,6 +21,7 @@ footer {
     color: white;
     padding: 2%;
 }
+
 h1,
 h2 {
     text-align: center;
@@ -34,6 +35,11 @@ img {
     margin-right: auto;
     border-radius: 5px 5px 5px 5px;
 }
+
+#button {
+    cursor: pointer;
+}
+
 ul {
     padding: 1%;
     font-size: 20px;

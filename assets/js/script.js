@@ -1,25 +1,35 @@
 var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
-function listTopics() {
-    for(var x = 0; x < topics.length; x++) {
-        console.log(topics[x]);
-    }
-}
+button = document.querySelector("#button");
+
+
 function selectTopic() {
     if (randomTopic === 'HTML') {
-        console.log("Let's study HTML!");
+        alert("Let's study HTML!");
     }   else if (randomTopic === 'CSS') { 
-        console.log("Let's study CSS!");
+        alert("Let's study CSS!");
     }   else if (randomTopic === 'Git') {
-        console.log("Let's study Git!");
+        alert("Let's study Git!");
     }   else if (randomTopic === 'JavaScript') {
-        console.log("Let's study JavaScript!");
+        alert("Let's study JavaScript!");
     }   else {
-        console.log('Please try again!');
+        alert('Please try again!');
     }
 }
-console.log('Here are the topics we learned through Prework:')
-listTopics();
-console.log('Which topic should we study first?')
-selectTopic();
+
+button.addEventListener("click", function() {
+    answer = prompt("Would you like a topic chosen for you to study? Please type 'Yes' or 'No'").toUpperCase();
+    if(answer === "YES") {
+        selectTopic();
+        alert("If you would like another topic chosen for you, make sure to refresh the page first!");
+    }
+    else if(answer === "NO") {
+        alert("You chose not to have a topic chosen for you.");
+    }
+    else {
+        alert("Error, please type 'Yes' or 'No'");
+    }
+})
+
+
 
